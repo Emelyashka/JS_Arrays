@@ -15,7 +15,8 @@ function task2 ()
  let sum=arr.filter(elem=>elem>0 && elem<10).reduce((sum,elem)=>sum+elem,0);
  console.log(sum);
 }
+
 function isChetn(arr)
 {
-    return arr.every(elem=>elem%2==0);
+    return arr.every((elem)=>elem%2==0);
 }

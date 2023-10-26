@@ -12,7 +12,7 @@
 </html>
 <script src="js/arrays.js"></script>
 <script>
-   let arr=prompt("Введите числа");
+   let arr=Array.from(Array(5),()=>{return Math.round(Math.random()*50)});
     console.log(arr.toString());
     console.log(isChetn(arr));
 </script>
