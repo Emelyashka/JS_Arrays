@@ -51,13 +51,13 @@ function task7()
 }
 
 function increaseDigitsByOne(number) {
-    let newNumber='';
+    let newNumber="";
     let digits=number.toString();
     for (let i = 0; i < digits.length; i++) {
       let digit=parseInt(digits[i]);
   
       if (digit===9) {
-        newNumber+='10';
+        newNumber+="10";
       } else {
         newNumber+=(digit + 1).toString();
       }
