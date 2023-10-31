@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Задача №8</h1>
+    <h2>Запросите у пользователя число и сформируйте на его основе другое число, каждая цифра которого больше на единицу. Если попалась цифра 9 она также заменяется на 10</h2>
+</body>
+</html>
+<script src="js/arrays.js"></script>
+<script>
+    let userInput=prompt('Введите числа');
+    let inputNumber=parseInt(userInput);
+    let newNumber=increaseDigitsByOne(inputNumber);
+    console.log(newNumber);
+
+</script>
