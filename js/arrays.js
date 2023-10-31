@@ -65,4 +65,9 @@ function increaseDigitsByOne(number) {
     return parseInt(newNumber);
   }
   
-  
+  function task9()
+  {
+    let arr=["http://vk.com","youtube.com","http://yahoo.com","dzen.ru"];
+    arr=arr.filter(elem=>elem.startsWith("http://"));
+    console.log(arr.toString());
+  }
