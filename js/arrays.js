@@ -26,6 +26,11 @@ function calcFive(arr)
     let newArr=arr.filter((elem)=>elem%5==0);
     return newArr;
 }
+let arrAverage=function(arr)
+{
+    let summa=arr.reduce((sum,elem)=>sum+elem,0);
+    return summa/arr.length
+}
 
 function task6()
 {
