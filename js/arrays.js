@@ -26,3 +26,12 @@ function calcFive(arr)
     let newArr=arr.filter((elem)=>elem%5==0);
     return newArr;
 }
+
+function task6()
+{
+    let arr=Array.from(Array(10),()=>{return Math.round(Math.random()*20)});
+    console.log(arr.toString());
+    let elem=arr.shift();
+    arr.push(elem);
+    console.log(arr.toString());
+}
